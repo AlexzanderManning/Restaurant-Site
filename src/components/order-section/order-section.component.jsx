@@ -4,7 +4,7 @@ import styles from './order-section.module.scss';
 
 const OrderSection = () => {
   return(
-    <div className={styles.orderSection}>
+    <div id='order' className={styles.orderSection}>
 
       <div className={styles.mediaObject}>
         <div className={styles.mediaImage}>

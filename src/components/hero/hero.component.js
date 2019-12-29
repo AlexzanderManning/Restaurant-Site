@@ -29,13 +29,13 @@ const HeroSection = () => {
 
         <div className={styles.headerContainer}>
           <div className={styles.headerPrimary}>
-            <h1>Order Online</h1>
+          <Link to="#order"><h1 className={styles.shame}>Order Online</h1></Link>
           </div>
           <div className={styles.headerSecondary}>
             <h2>8 City BLVD | Nashville, TN 37209</h2>
           </div>
           <div className={styles.headerThird}>
-            <h1>615.915.1866 |<span><a href='mailto:events@pastarianashville.com'> Contact</a></span></h1>
+            <h1>615.915.1866 <span><a href='mailto:events@pastarianashville.com'>| Contact</a></span></h1>
           </div>
         </div>
       </div>
