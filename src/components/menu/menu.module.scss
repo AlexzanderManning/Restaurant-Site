@@ -1,0 +1,114 @@
+.menuImage{
+  display: none;
+}
+
+
+
+@media(min-width: 960px){
+  .bossContainer{
+    display: flex;
+  }
+  
+  .menuImage{
+    flex: 1 2 auto;
+    display: flex;
+  }
+
+  .menuContainer{
+    flex: 1 1 auto;
+    padding: 3rem;
+  }
+
+  .menuFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    .menuSection{
+      flex: 1 1 50%;
+      // margin-right: 1rem;
+    }
+  }
+}
+
+@media(min-width:960px){
+  .menuButtons{
+    margin:0 auto;
+    text-align: center;
+  
+    button{
+      border: none;
+      background-color: #ffffff;
+      font-weight: 700;
+      font-family: "Oswald", Helvetica, Arial, sans-serif;
+      line-height: 1;
+      font-size: 1.5rem !important;
+      text-align: center;
+      margin: 0 1rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+
+
+
+.menuContainer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.menuSection{
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+
+  h1{
+    text-transform: uppercase;
+  }
+}
+
+.menuButtons{
+  margin:0 auto;
+  text-align: center;
+
+  button{
+    border: none;
+    background-color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-size: .9rem;
+    text-align: center;
+    // margin: 0 0 12px 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.items{
+
+  h4{
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    margin: 10px 0 0;
+    font-weight: 700;
+    text-transform: none;
+    
+  }
+}
+
+.itemDescription{
+    color: #988b8f;
+    font-size: 1rem;
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    line-height: 1.25;
+    margin: 0;
+    margin-right: 1rem;
+}

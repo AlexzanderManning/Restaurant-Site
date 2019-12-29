@@ -1,0 +1,107 @@
+
+.hoursContainer {
+  background: url("https://eatpastaria.com/nashville/wp-content/themes/pastaria/images/orbs.png");
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hoursTable {
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-top: 1rem;
+  margin-bottom: .5rem;
+  // text-align: center;
+  width: 100%;
+
+  td {
+    color: #08303e;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    padding: 15px 12px 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    // vertical-align: bottom;
+  }
+
+  td:first-child {
+    font-size: 2rem;
+    text-align: right;
+  }
+}
+
+@media(min-width:960px){
+  .hoursTable{
+    width: 0;
+  }
+}
+
+.copy {
+  color:#FF4612;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Oswald", Helvetica, Arial;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+p{
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+  padding: 15px 12px 0 0;
+  text-align: center;
+  // margin-bottom: 1rem;
+
+  a{
+    text-decoration: underline;
+  }
+}
+
+.copy2 {
+  color:#FF4612;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Oswald", Helvetica, Arial;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+p{
+  padding: 15px 12px 0 0;
+  text-align: center;
+  // margin-bottom: 1rem;
+
+  a{
+    text-decoration: underline;
+  }
+}
+
+.noodle{
+  display: none;
+}
+
+@media(min-width:960px){
+  .noodle{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 5rem;
+    text-align: center;
+    position: relative;
+  
+    img {
+      display: block;
+      position: absolute;
+      // width: 200%;
+      z-index: 5;
+      bottom: 50%;
+      left:0;
+    }
+  }
+}
+
+

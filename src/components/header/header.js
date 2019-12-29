@@ -5,8 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: '#EF5C35',
     }}
   >
     <div
@@ -16,17 +15,27 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
+      
+
+      <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img style={{ margin: 0 }} src='https://eatpastaria.com/nashville/wp-content/themes/pastaria/images/logo.png'></img>
         </Link>
-      </h1>
+
+        {/* <div>
+          <ul>
+            <li>Home</li>
+            <li>HOURS</li>
+            <li>Menus</li>
+            <li>GIFT CERTIFICATES</li>
+            <li>EMPLOYMENTS</li>
+          </ul>
+        </div> */}
     </div>
   </header>
 )

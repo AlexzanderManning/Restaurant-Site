@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+.orderSection {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 90%;
+  text-align: center;
+}
+
+.mediaObject{
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Karla", Helvetica, Arial, sans-serif; 
+}
+
+@media(min-width:960px){
+  .mediaObject{
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .mediaImage{
+    flex: 1 1 30%;
+    // width: 50%;
+    // padding: 2rem;
+    
+  }
+
+  .mediaBody{
+    flex: 2 1 auto;
+    // margin-left: 2rem;
+  }
+}
+
+.mediaImage{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: .5rem;
+}
+
+.mediaHeader{
+  font-weight: 700;
+}
+
+.mediaCopy {
+  margin-bottom: 1rem;
+}
+
+.mediaButton{
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color:rgb(239, 92, 52) ;
+  color: white;
+  margin-top: 2rem;
+  padding: .25rem .5rem;
+}
+
+
+
+
+
+
