@@ -23,7 +23,7 @@ const HoursSection = () => {
           </tbody>
         </table>
 
-        <p><span className={styles.copy}>Private Dining Avialable. </span><a href='mailto:events@pastarianashville.com'>Email us</a> to get started.</p>
+        <p><span className={styles.copy}>Private Dining Available. </span><a href='mailto:events@pastarianashville.com'>Email us</a> to get started.</p>
 
         <p className={styles.copy2}>Free parking in garage.</p>
       </div>
